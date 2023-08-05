@@ -1,0 +1,46 @@
+body {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    height: 1cm;
+    font-weight: 560;
+
+    border-radius: 1mm;
+    background-color: rgb(163, 163, 235);
+}
+
+.save-btn {
+    background-color: transparent;
+    color: rgb(0, 21, 128);
+}
+
+button:hover {
+    color: rgb(35, 35, 35);
+    background-color: rgba(184, 184, 236, 0.654);
+}
+
+button:active {
+    color: rgb(99, 99, 212);
+}
+
+/* title */
+.counter-app {
+    display: inline-block;
+    background-color: aqua;
+
+    max-width: 16cm;
+    border-radius: 2ch;
+}
